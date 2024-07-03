@@ -1,0 +1,266 @@
+.home {
+}
+
+.home-content {
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    overflow-y: auto;
+    padding: 0 40px 0 60px;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+
+    padding-bottom: 40px;
+    background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
+        url('https://vcdn-suckhoe.vnecdn.net/2022/07/04/grilled-chicken-legs-flaming-g-8521-7384-1656906412.jpg');
+}
+.content-left {
+    width: 50%;
+}
+
+.content-info {
+    width: 350px;
+    color: #fff;
+}
+.content-title {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 44px;
+}
+.content-desc {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.author {
+    text-align: right;
+}
+.button-header {
+    background-color: #ffc107;
+    padding: 10px 20px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 18%;
+    color: #fff;
+    margin-top: 12px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.button-header:hover {
+    background-color: #e6b629;
+    color: #fff;
+}
+
+.content-right {
+    width: 40%;
+}
+.content-img {
+    width: 360px;
+    border-radius: 50%;
+    margin-right: 40px;
+    height: 360px;
+    animation: spin 20s linear infinite;
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+//author : Hiếu
+//--------------------------sevice------------------------
+.carts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cart-list {
+    width: 20%;
+    height: 240px;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #fff;
+}
+.cart-item {
+    margin: 12px;
+}
+
+.cart-icon {
+    color: #ffc107;
+    font-size: 38px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.cart-header {
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.cart-desc {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    margin-top: 8px;
+    color: #aaaaaa;
+    margin-bottom: 12px;
+}
+.cart-list:hover {
+    background-color: #e6b629;
+    color: #fff;
+    .cart-icon {
+        color: #fff;
+    }
+    .cart-desc {
+        color: #fff;
+    }
+}
+
+//-------------------about---------------------
+.content-image {
+    display: block;
+    width: 50vw;
+    margin-left: 28px;
+}
+.images-top,
+.images-bot {
+    display: flex;
+    align-items: center;
+}
+.img-topleft,
+.about-img1 {
+    width: 259px;
+    height: 259px;
+}
+.img-topright {
+    width: 220px;
+    height: 220px;
+}
+
+.about-img2 {
+    width: 194px;
+    float: right;
+    margin-top: 20%;
+    height: 194px;
+}
+.images-bot {
+    margin-top: 12px;
+}
+.img-botleft,
+.img-botright {
+    width: 259px;
+    height: 259px;
+}
+.about-img3 {
+    width: 194px;
+    float: right;
+    height: 194px;
+}
+.about-img4 {
+    margin-left: 26px;
+    width: 259px;
+    height: 259px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+.content-infor {
+    margin-left: -50px;
+    width: 600px;
+    margin-right: 12px;
+    margin-top: -100px;
+    height: auto;
+}
+.about-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffc107;
+    font-family: 'Pacifico', cursive;
+}
+.about-header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-icon-logo {
+    margin-left: 8px;
+    margin-top: 12px;
+    font-size: 36px;
+    color: #ffc107;
+}
+.about-label-logo {
+    margin-left: 4px;
+}
+.about-desc {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-marter {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.quality {
+    display: flex;
+    border-left: 6px solid #ffc107;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-year {
+    margin-left: 20px;
+    font-size: 40px;
+    color: #ffc107;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.about-year-infor {
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.year-infor-of-title {
+    color: #aaaaaa;
+}
+.year-infor-of {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.about-button-header{
+    background-color: #ffc107;
+    padding: 10px 20px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    height: 50px;
+    color: #fff;
+    margin-top: 40px !important;
+    margin-top: 12px;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.about-button-header:hover{
+    background-color: #feca2b;
+}
+.h2{
+    margin-right: 40px;
+}
+

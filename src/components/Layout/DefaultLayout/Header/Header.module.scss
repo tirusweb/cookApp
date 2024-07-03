@@ -1,0 +1,68 @@
+                                                                                                                                    .layout{
+    width: 100%;
+    height: 60px;
+    background-color: #0f172b;
+    padding: 0 40px 0 60px;
+}
+.layout-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: #ffc107;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8px;
+}
+.icon-logo{
+    font-size: 30px;
+    padding-right: 6px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+.item{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+
+}
+.item:hover{
+    color: #ffc107;
+}
+
+.label{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button-header{
+    background-color: #ffc107;
+    padding: 8px 12px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.button-header:hover{
+    background-color: #e6b629;
+    color: #fff;
+}
+
+.active{
+    color: #ffc107;
+}
