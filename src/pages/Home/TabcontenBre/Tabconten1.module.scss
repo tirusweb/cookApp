@@ -1,0 +1,61 @@
+.abconten_menu{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-menu_detail{
+    display: flex;
+    align-items: center;
+    
+}
+.food-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 30px;
+}
+.food-menu_infor{
+    margin-left: 12px;
+
+}
+.food-menu_img{
+    border: 2px solid #c8ba92;
+}
+.food-menu_title{
+    display: flex;
+    flex: 1;
+    width: 400px;
+
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.food-menu_name{
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.food-menu_price{
+    margin-bottom: 12px;
+    color: #feca2b;
+    font-family: "Nunito", sans-serif;
+
+    font-weight: 800;
+}
+.food-menu_desc{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    margin-top: 6px;
+
+}
